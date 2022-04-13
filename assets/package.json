@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@floating-ui/dom": "^0.4.4"
+  }
+}

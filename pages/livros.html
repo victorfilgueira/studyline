@@ -1,0 +1,61 @@
+<div class="livros-page">
+	<div class="header">
+		<nav class="navbar navbar-light bg-light" style="font-size: 160%" style="margin-bottom: 0rem">
+			<div class="container">
+			<a href="/" onclick="route()" class="text-decoration-none link-dark" style="font-size: 160%">
+				<img src="../assets/imgs/logo.png" alt="studyline" width="80" height="80">
+				<strong>Study Line</strong>
+			</a>
+			<a href="/" onclick="route()" class="text-decoration-none link-secondary" data-link>Matérias</a>
+			<a href="/aulas" onclick="route()" class="text-decoration-none link-secondary" data-link>Aulas</a>
+			<a href="/livros" onclick="route()" class="text-decoration-none link-secondary" data-link>Livros</a>
+			<a href="/resumos" onclick="route()" class="text-decoration-none link-secondary" data-link>Resumos</a>
+			<a href="/perfil" onclick="route()" class="text-decoration-none link-secondary" data-link>Meu Perfil</a>
+			<a href="/login" onclick="route()" class="text-decoration-none link-secondary" data-link>Entrar</a>
+			</div>
+		</nav>
+	
+		<nav class="navbar navbar-light bg-danger bg-gradient" style="font-size: 190%">
+			<a href="/conteudo-exclusivo" onclick="route()" id="conteudo-exclusivo" class="text-decoration-none link-light">Conteúdos Exclusivos feitos para você</a>
+		</nav>
+	</div>
+
+	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="10000">
+			<img src="https://images-na.ssl-images-amazon.com/images/I/510c3Td59TL._SX373_BO1,204,203,200_.jpg" class="d-block w-100" alt="Livro" id="livro-img">
+			<div class="carousel-caption d-none d-md-block bg-danger">
+			  <h5>Pré-Calculo</h5>
+			  <p>Livro sobre pré-calculo.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item" data-bs-interval="2000">
+			<img src="https://megaleitores.com.br/images/livros/luiz-mauro-rocha/atlas/calculo-1-limites-derivadas-integrais-exercicios-resolvidos-670-exercicios-com-respostas/161707/8522410305-calculo-1-limites-derivadas-integrais-exercicios-resolvidos-670-exercicios-com-respostas-60ef0f8018ed1-540x728.jpg" class="d-block w-100" alt="..." id="livro-img">
+			<div class="carousel-caption d-none d-md-block bg-danger">
+			  <h5>Limites</h5>
+			  <p>Livro sobre limites.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://a-static.mlcdn.com.br/618x463/calculo-1-derivada-e-integral-em-uma-variavel/livrariamartinsfontespaulista/685179/af43b777f3df511bce40e70ebe5ec035.jpg" class="d-block w-100" alt="..." id="livro-img">
+			<div class="carousel-caption d-none d-md-block bg-danger">
+			  <h5>Derivadas</h5>
+			  <p>Livro sobre derivadas.</p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	</div>
+</div>

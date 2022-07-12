@@ -38,6 +38,7 @@ strong {
     box-shadow: none;
     min-height:60px;
     height: auto;
+	width: 50rem;
     border-radius: 50px 0  0 50px !important;
 }
 
@@ -50,7 +51,7 @@ strong {
 #searchbtn
 { border:0;
   padding: 0px 10px;
-  margin-top: 10px;
+  margin-top: 4px;
   color: #fff;
   background:rgb(220, 53, 69);
   font-size: 27px;
@@ -66,7 +67,7 @@ strong {
 
 #searchbar {
 	margin-top: 20px;
-	max-width: 120rem;
+	max-width: 156rem;
 	margin-left: 10rem;
 }
 
@@ -148,6 +149,9 @@ p {
 	margin-top: 5rem;
 }
 
+#icon {
+	max-width: 28rem;
+}
 
 h2 {
 	text-align: center;
@@ -194,19 +198,11 @@ h2 {
 	text-align: center;
 	-webkit-border-radius: 0 0 10px 10px;
 	border-radius: 0 0 10px 10px;
-  }
-  
-  h2.inactive {
-	color: #cccccc;
-  }
-  
-  h2.active {
-	color: #0d0d0d;
-	border-bottom: 2px solid #5fbae9;
+	font-size: 1.2rem;
   }
   
   input[type=button], input[type=submit], input[type=reset]  {
-	background-color: #56baed;
+	background-color: rgb(220, 53, 69);
 	border: none;
 	color: white;
 	padding: 15px 80px;
@@ -227,18 +223,6 @@ h2 {
 	transition: all 0.3s ease-in-out;
   }
   
-  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-	background-color: #39ace7;
-  }
-  
-  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
-	-moz-transform: scale(0.95);
-	-webkit-transform: scale(0.95);
-	-o-transform: scale(0.95);
-	-ms-transform: scale(0.95);
-	transform: scale(0.95);
-  }
-  
   input[type=text] {
 	background-color: #f6f6f6;
 	border: none;
@@ -257,11 +241,6 @@ h2 {
 	transition: all 0.5s ease-in-out;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
-  }
-  
-  input[type=text]:focus {
-	background-color: #fff;
-	border-bottom: 2px solid #5fbae9;
   }
   
   input[type=text]:placeholder {

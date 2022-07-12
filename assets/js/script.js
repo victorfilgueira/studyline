@@ -30,3 +30,13 @@ window.onpopstate = handleLocation;
 window.route = route;
 
 handleLocation();
+
+$(function () {
+	let like = $("#like").data("like")
+	let dislike = $("dislike").data("dislike")
+
+	$("#like").text(like)
+	$("dislike").text(dislike)
+
+})
+
